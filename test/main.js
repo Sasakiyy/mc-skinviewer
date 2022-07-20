@@ -7,7 +7,7 @@
     customSkin.onload = () => {
         skinViewer.setSkin(customSkin);
     }
-    customSkin.src = './daidr.png';
+    customSkin.src = './Origami - 1.1.png';
 
     // 左右滑动事件
     {
