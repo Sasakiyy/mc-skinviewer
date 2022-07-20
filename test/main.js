@@ -3,6 +3,8 @@
 
     const skinViewer = new SkinViewer({ container });
 
+    skinViewer.setSkinType(SkinViewer.SKIN_TYPE.ALEX);
+    
     const customSkin = new Image();
     customSkin.onload = () => {
         skinViewer.setSkin(customSkin);
